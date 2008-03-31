@@ -10,6 +10,8 @@ There are (mostly non-free) programs to do most of the tasks, but there is no co
 
 We'll try to develop our pseudopotential, that's why lpp is here.
 
+Look into [http://hg.sympy.org/pyqm/file/tip/lpp/Documentation/ lpp/Documentation], type `make lpp.ps` and this is what needs to be done.
+
 Related papers:
 
 http://landau.phys.spbu.ru/~kirr/phys/papers/
