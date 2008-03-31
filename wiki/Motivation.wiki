@@ -17,3 +17,11 @@ Look into [http://hg.sympy.org/pyqm/file/tip/lpp/Documentation/ lpp/Documentatio
 Related papers:
 
 http://landau.phys.spbu.ru/~kirr/phys/papers/
+
+== detailed plan ==
+
+  * the goal as we keep in head is to have an f77 function which recieves on input all the parameters (l1,m2,l2,m,2 g1<params>, g2<params>) and returns a number.
+
+  * for all this formulas could be derived (matrix elements are integrals) and we could do it by hand
+
+  * but our goal is to also derive formulas with the help of sympy and to generate such routines
