@@ -27,3 +27,7 @@ http://landau.phys.spbu.ru/~kirr/phys/papers/
   * so first we should try to calculate angular parts with sympy (done with maxima, and partly with sympy)
   * then we should derive more formulas for radial integrals, and do them with sympy too
   * then when we get resultant formulas, we should verify them with numerical integration first, then generate routines.
+
+== more detailed plan ==
+
+  * first we need to get spherical integrals full working with sympy. this was done with maxima, and is half done with sympy.
