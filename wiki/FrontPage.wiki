@@ -5,4 +5,5 @@ Read the [Motivation] wiki for explanation what this project is about.
 == Infrastructure ==
 
 repository: http://hg.sympy.org/pyqm
+
 mailinglist: http://groups.google.com/group/pyqm
