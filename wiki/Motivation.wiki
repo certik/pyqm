@@ -25,3 +25,5 @@ http://landau.phys.spbu.ru/~kirr/phys/papers/
   * for all this formulas could be derived (matrix elements are integrals) and we could do it by hand
 
   * but our goal is to also derive formulas with the help of sympy and to generate such routines
+
+  * for this we write down what integrals we have and try to write routines with the help of sympy to get resultant formulas first.
