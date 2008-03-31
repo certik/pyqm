@@ -9,3 +9,7 @@ The idea is to take some large molecule that is impossible to calculate using HF
 There are (mostly non-free) programs to do most of the tasks, but there is no consensus on the approach in the world.
 
 We'll try to develop our pseudopotential, that's why lpp is here.
+
+Related papers:
+
+http://landau.phys.spbu.ru/~kirr/phys/papers/
