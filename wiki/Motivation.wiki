@@ -21,9 +21,9 @@ http://landau.phys.spbu.ru/~kirr/phys/papers/
 == detailed plan ==
 
   * the goal as we keep in head is to have an f77 function which recieves on input all the parameters (l1,m2,l2,m,2 g1<params>, g2<params>) and returns a number.
-
   * for all this formulas could be derived (matrix elements are integrals) and we could do it by hand
-
   * but our goal is to also derive formulas with the help of sympy and to generate such routines
-
   * for this we write down what integrals we have and try to write routines with the help of sympy to get resultant formulas first.
+  * so first we should try to calculate angular parts with sympy (done with maxima, and partly with sympy)
+  * then we should derive more formulas for radial integrals, and do them with sympy too
+  * then when we get resultant formulas, we should verify them with numerical integration first, then generate routines.
