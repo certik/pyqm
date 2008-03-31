@@ -31,3 +31,5 @@ http://landau.phys.spbu.ru/~kirr/phys/papers/
 == more detailed plan ==
 
   * first we need to get spherical integrals full working with sympy. this was done with maxima, and is half done with sympy.
+
+For this we see that full matrix element (2) is split into radial part and product of two spherical integrals (3). Then we analyze (3) and see it is a mix (5) of more primitive spherical integrals (4). Then we expand exponent with scalar radial product in (4) using bessel jl functions, and also we rewrite x^nx*y^nz*z^nz into sum of real spherical harmonicz Zlm (8), and then we get fully expanded formula for primitive spherical integrals (9).
