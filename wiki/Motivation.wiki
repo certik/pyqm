@@ -1,3 +1,5 @@
 #summary General motivation
 
 = Introduction =
+
+when we have large molecule, and we are interested only in some its properties, we don't want to calculate it all with full precision (and often this is not even possible), but we want to split it somehow and calculate uninteresting parst say with quasi-classic approach and interesting parts with QM. then there is a problem how to connect things.
