@@ -10,6 +10,8 @@ There are (mostly non-free) programs to do most of the tasks, but there is no co
 
 We'll try to develop our pseudopotential, that's why lpp is here.
 
+All HF calculations are traditionally done with gaussian basis, that's why if we want to use any potential we have to represent it in suitable basis: gaussians. The pseudopotential however is traditionally given in the l-dependent basis, so we need to convert it.
+
 Look into [http://hg.sympy.org/pyqm/file/tip/lpp/Documentation/ lpp/Documentation], type `make lpp.ps` and this is what needs to be done.
 
 Related papers:
