@@ -4,6 +4,8 @@
 
 When we have large molecule, and we are interested only in some its properties, we don't want to calculate it all with full precision (and often this is not even possible), but we want to split it somehow and calculate uninteresting parst say with quasi-classic approach and interesting parts with QM. then there is a problem how to connect things.
 
-The idea is to take some large molecule that is impossible to calculate using HF. Decompose it into parts, calculate each part using HF and put that back together.
+The idea is to take some large molecule that is impossible to calculate using HF. Decompose it into interesting and non-interesting parts, represent non-interesting part with a pseudo-potential and then calculate interesting part using HF to obtain energies and electronic densitiy, etc.
 
-There are (mostly non-free) programs to do most of the tasks. This project first fixes the missing part: lpp.
+There are (mostly non-free) programs to do most of the tasks, but there is no consensus on the approach in the world.
+
+We'll try to develop our pseudopotential, that's why lpp is here.
